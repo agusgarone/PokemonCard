@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="conteiner">
+            <div class="front" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                
+                <div class="data">
+                    <h2 id="nombre"></h2>
+                    <h2 id="tipo"></h2>
+                </div>
+
+                <div class="img">
+                    <img id="image" src="none" alt="">
+                </div>
+                
+                <div class="info">
+                    <h2>Moves</h2>
+                    <ul id="moves">
+                        <li class="move1"></li>
+                        <li class="move2"></li>
+                    </ul>
+                </div>
+
+            </div>
+            <img class="back" src="/backCover.png" alt="">
+    </div>
+    <div class="conteinerr">
+            <div class="celeste"></div>
+            <div class="rojo"></div>
+            <div class="amarillo"></div>
+            <div class="verde"></div>
+        <div class="bottoms"></div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="./vanilla-tilt.js"></script>
+</body>
+</html>
